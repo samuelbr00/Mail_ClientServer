@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/out/test/prog3"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<excludeFolder url="file://$MODULE_DIR$/mailfxserver/persistence/salvatore.cavallaro@gmail.com/inviata"/>
+		<excludeFolder url="file://$MODULE_DIR$/mailfxserver/persistence/salvatore.cavallaro@gmail.com/ricevuta"/>
+	</contentEntry>
+	<levels>
+		<level name="lib" value="project"/>
+		<level name="Java-MailApp-ClientServer-master 4" value="project"/>
+		<level name="lib1" value="project"/>
+		<level name="gson-2.8.2" value="project"/>
+		<level name="controlsfx-11.0.1" value="project"/>
+	</levels>
+</component>

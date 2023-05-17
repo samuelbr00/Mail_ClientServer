@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+>
+    <children>
+        <HBox fx:id="toolbar" prefHeight="39.0" prefWidth="850.0" spacing="10.0" stylesheets="@style.css" AnchorPane.bottomAnchor="561.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Button fx:id="button_tutte" alignment="CENTER" mnemonicParsing="false" stylesheets="@style.css" text="Tutte le mail" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+                <Button fx:id="button_ricevute"  alignment="CENTER" mnemonicParsing="false" stylesheets="@style.css" text="Ricevute" textAlignment="CENTER" textFill="WHITE">
+                    <font>
+                  <Font size="14.0" />
+               </font></Button>
+                <Button fx:id="button_inviate" alignment="CENTER" mnemonicParsing="false" stylesheets="@style.css" text="Inviate" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+                <Button fx:id="button_scrivi" alignment="CENTER" mnemonicParsing="false" stylesheets="@style.css" text="Scrivi" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+            <Label fx:id="label_sezione"  text="Label" textFill="#dcdce5">
+               <HBox.margin>
+                  <Insets left="230.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font></Label>
+            </children>
+            <padding>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </padding>
+        </HBox>
+        <AnchorPane fx:id="anchor_pane_body" layoutY="35.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="35.0" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="lib" />
+  <library name="Java-MailApp-ClientServer-master 4">
+    <archive path="/Users/samuelbruno/Downloads/Progetto_prog_Mail/gson-2.8.6.jar" />
+    <archive path="/Users/samuelbruno/Downloads/Progetto_prog_Mail/controlsfx-11.0.1.jar" />
+  </library>
+  <library name="lib1" />
+  <library name="gson-2.8.2">
+    <archive path="/Users/samuelbruno/Desktop/gson-2.8.2.jar" />
+  </library>
+  <library name="controlsfx-11.0.1">
+    <archive path="/Users/samuelbruno/Downloads/Progetto_prog_Mail/controlsfx-11.0.1.jar" />
+  </library>
+  <library name="controlsfx-8.40.11" />
+  <library name="gson-2.10" />
+  <library name="gson-2.101" />
+  <library name="gson-2.102" />
+  <library name="gson-2.8.2">
+    <archive path="/Users/samuelbruno/Desktop/gson-2.8.2.jar" />
+  </library>
+  <library name="gson-2.8.21">
+    <archive path="/Users/samuelbruno/Desktop/gson-2.8.2.jar" />
+  </library>
+  <library name="javax.servlet-api-4.0.1" />
+  <library name="javax.servlet-api-4.0.11" />
+  <library name="javax.servlet-api-4.0.12" />
+  <library name="mysql-connector-java-5.1.44-bin" />
+  <library name="mysql-connector-java-5.1.44-bin1" />
+  <library name="mysql-connector-java-5.1.44-bin2">
+    <archive path="/Users/samuelbruno/Downloads/mysql-connector-java-5.1.44-bin.jar" />
+  </library>
+  <library name="mysql-connector-java-5.1.44-bin3">
+    <archive path="/Users/samuelbruno/Downloads/mysql-connector-java-5.1.44-bin.jar" />
+  </library>
+  <library name="mysql-connector-java-5.1.44-bin4">
+    <archive path="/Users/samuelbruno/Downloads/mysql-connector-java-5.1.44-bin.jar" />
+  </library>
+  <library name="Python 3.11 interpreter library" />
+</eclipse-userlibraries>
+

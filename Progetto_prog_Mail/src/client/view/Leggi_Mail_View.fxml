@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="main_anchor_pane" prefHeight="415.0" prefWidth="700.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1"
+>
+    <children>
+        <SplitPane dividerPositions="0.35" prefHeight="558.0" prefWidth="700.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <items>
+                <ListView fx:id="list_view_mail" prefHeight="556.0" prefWidth="262.0" stylesheets="@style.css" />
+                <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                    <children>
+                  <VBox AnchorPane.bottomAnchor="8.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                              <HBox id="navbar_leggi" fx:id="navbar_leggi" alignment="TOP_RIGHT" maxHeight="40.0" minHeight="20.0" prefHeight="40.0" prefWidth="450.0" spacing="10.0" stylesheets="@style.css">
+                                  <children>
+                                      <Button fx:id="button_rispondi" disable="true" mnemonicParsing="false" stylesheets="@style.css" text="Rispondi" textFill="WHITE">
+                                 <HBox.margin>
+                                    <Insets right="5.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Button>
+                                      <Button fx:id="button_rispondi_a_tutti" disable="true" mnemonicParsing="false" prefHeight="30.0" prefWidth="137.0" stylesheets="@style.css" text="Rispondi a tutti" textFill="WHITE">
+                                 <HBox.margin>
+                                    <Insets right="5.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Button>
+                                      <Button fx:id="button_inoltra" disable="true" mnemonicParsing="false" stylesheets="@style.css" text="Inoltra" textFill="WHITE">
+                                 <HBox.margin>
+                                    <Insets right="5.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Button>
+                                      <Button fx:id="button_elimina" disable="true" mnemonicParsing="false" stylesheets="@style.css" text="Elimina" textFill="WHITE">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Button>
+                                  </children>
+                                  <padding>
+                                      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                  </padding>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                              </HBox>
+                              <VBox prefHeight="385.0" prefWidth="447.0">
+                                  <children>
+                                      <TextField id="text_field_leggi" fx:id="text_mittente" editable="false" focusTraversable="false" promptText="Mittente" stylesheets="@style.css">
+                                          <VBox.margin>
+                                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                          </VBox.margin>
+                                 <cursor>
+                                    <Cursor fx:constant="NONE" />
+                                 </cursor>
+                                      </TextField>
+                                      <TextField id="text_field_leggi" fx:id="text_destinatario" editable="false" promptText="Destinatario" stylesheets="@style.css">
+                                          <VBox.margin>
+                                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                          </VBox.margin>
+                                      </TextField>
+                                      <TextField id="text_field_leggi" fx:id="text_soggetto" editable="false" promptText="Oggetto" stylesheets="@style.css">
+                                          <VBox.margin>
+                                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                          </VBox.margin>
+                                      </TextField>
+                                      <TextArea fx:id="text_testo_mail" editable="false" minHeight="-Infinity" prefHeight="255.0" prefWidth="200.0" promptText="Scrivi qui la tua mail" stylesheets="@style.css">
+                                          <VBox.margin>
+                                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                          </VBox.margin>
+                                      </TextArea>
+                                  </children>
+                              </VBox>
+                     </children></VBox>
+                    </children>
+                </AnchorPane>
+            </items>
+        </SplitPane>
+    </children>
+</AnchorPane>

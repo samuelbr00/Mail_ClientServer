@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="415.0" prefWidth="700.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1"
+>
+    <children>
+        <AnchorPane layoutY="-1.0" prefHeight="492.0" prefWidth="700.0" AnchorPane.bottomAnchor="-37.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-1.0">
+            <children>
+                <VBox layoutY="-1.0" prefHeight="494.0" prefWidth="700.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-1.0">
+                    <children>
+                        <TextField id="text_field_scrivi" fx:id="text_mittente" prefHeight="20.0" prefWidth="690.0" promptText="Mittente" stylesheets="@style.css">
+                            <VBox.margin>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
+                            </VBox.margin>
+                        </TextField>
+                        <TextField id="text_field_scrivi" fx:id="text_destinatario" promptText="Destinatario" stylesheets="@style.css">
+                            <VBox.margin>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </VBox.margin>
+                        </TextField>
+                        <TextField id="text_field_scrivi" fx:id="text_soggetto" promptText="Oggetto" stylesheets="@style.css">
+                            <VBox.margin>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </VBox.margin>
+                        </TextField>
+                  <AnchorPane fx:id="anchor_pane_scrivi" prefHeight="414.0" prefWidth="700.0" stylesheets="@style.css">
+                     <children>
+                              <TextArea fx:id="text_testo_mail" prefHeight="337.0" prefWidth="633.0" promptText="Scrivi qui la tua mail" stylesheets="@style.css" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0" />
+                            <Button id="btn_invia" fx:id="button_invia" layoutX="565.0" layoutY="303.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="79.0" stylesheets="@style.css" text="Invia" textAlignment="CENTER" AnchorPane.bottomAnchor="8.0" AnchorPane.rightAnchor="21.0" />
+                     </children>
+                  </AnchorPane>
+                    </children>
+                </VBox>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
